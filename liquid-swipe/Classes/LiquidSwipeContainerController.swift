@@ -41,7 +41,15 @@ open class LiquidSwipeContainerController: UIViewController {
         button.setImage(UIImage(named: "btnNext.png", in: Bundle.resourseBundle, compatibleWith: nil), for: .normal)
         return button
     }()
-    
+
+    public var buttonIcon: UIImage? = nil {
+        didSet {
+            btnNext.setImage(buttonIcon, for: .normal)
+            btnNext.setImage(buttonIcon, for: .selected)
+            btnNext.setImage(buttonIcon, for: .highlighted)
+        }
+    }
+
     private var initialHorRadius: CGFloat = 48.0
     private var maxHorRadius: CGFloat {
         return view.bounds.width * 0.8
