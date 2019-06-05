@@ -95,6 +95,8 @@ open class LiquidSwipeContainerController: UIViewController {
         csBtnNextLeading?.isActive = true
         csBtnNextCenterY = btnNext.centerYAnchor.constraint(equalTo: view.topAnchor, constant: initialWaveCenter)
         csBtnNextCenterY?.isActive = true
+        btnNext.widthAnchor.constraint(equalToConstant: 48).isActive = true
+        btnNext.heightAnchor.constraint(equalToConstant: 48).isActive = true
         btnNext.addTarget(self, action: #selector(btnTapped(_:)), for: .touchUpInside)
     }
     
