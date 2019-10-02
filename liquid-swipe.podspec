@@ -8,23 +8,18 @@
 
 Pod::Spec.new do |s|
   s.name             = 'liquid-swipe'
-  s.version          = '0.8.1'
+  s.version          = '0.9.0'
   s.summary          = 'An page conroller with liquid animation'
-  s.swift_version    = '4.2'
+  s.swift_version    = '5.0'
   s.homepage         = 'https://github.com/Cuberto/liquid-swipe'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'askopin@gmail.com' => 'askopin@gmail.com' }
   s.source           = { :git => 'https://github.com/Cuberto/liquid-swipe.git', :tag => s.version.to_s }
-   s.social_media_url = 'https://twitter.com/cuberto'
-
-  s.ios.deployment_target = '9.3'
-
+  s.social_media_url = 'https://twitter.com/cuberto'
+  s.ios.deployment_target = '11.0'
   s.source_files = 'liquid-swipe/Classes/**/*'
-  
-   s.resource_bundles = {
+  s.resource_bundles = {
      'liquid-swipe' => ['liquid-swipe/Assets/*.png']
-   }
-
-   s.dependency 'pop', '~> 1.0'
+  }
+  s.dependency 'pop', '~> 1.0'
 end

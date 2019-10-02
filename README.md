@@ -6,7 +6,7 @@ Cuberto is a leading digital agency with solid design and development expertise.
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Cuberto/liquid-swipe/master/LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/CBFlashyTabBarController.svg)](http://cocoapods.org/pods/liquid-swiper)
-[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-green.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-green.svg?style=flat)](https://developer.apple.com/swift/)
 
 
 ![Animation](https://raw.githubusercontent.com/Cuberto/liquid-swipe/master/Screenshots/animation.gif)
@@ -17,8 +17,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-- iOS 9.3+
-- Xcode 10
+- iOS 11.0+
+- Xcode 11
 
 ## Installation
 
